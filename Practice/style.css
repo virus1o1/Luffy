@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+header{
+    padding: 50px;
+
+}
+header > #logo{
+    font-size: 2em;
+}
