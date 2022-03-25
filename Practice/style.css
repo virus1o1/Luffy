@@ -86,3 +86,9 @@ nav ul li a:hover{
 span{
     color: #F01577;
 }
+.body-content{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+}
+
