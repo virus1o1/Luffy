@@ -86,9 +86,30 @@ nav ul li a:hover{
 span{
     color: #F01577;
 }
-.body-content{
-    display: grid;
-    align-items: center;
-    justify-content:center;
+label{
+    vertical-align: middle;
 }
-
+input[type=password],
+input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  margin: 5px 0px 10px;
+  padding: 8px;
+  width: 250px;
+}
+input[type=email],
+input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 18px;
+  margin: 5px 0px 10px;
+  padding: 8px;
+  width: 250px;
+}
+.login-box{
+    margin: 0 auto;
+    justify-content: center;
+}
